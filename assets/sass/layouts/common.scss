@@ -11,6 +11,10 @@
 }
 
 body {
+  font-size: 1.2rem;
+  @media screen and (max-width: $mobile-breakpoint) {
+    font-size: 1.0rem; // Font-size for mobiles and tablets
+  }
   background-color: var(--bg);
   color: var(--fg);
 }
